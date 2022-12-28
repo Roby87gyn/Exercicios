@@ -1,0 +1,95 @@
+/** Card noticia **/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cabeca {
+        background-color:  rgb(9,32, 95);
+        border-bottom: dotted 4px rgb(176,196,222);
+        padding: 18px;
+        margin-bottom: 20px;
+    }   
+
+    .título {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        text-shadow: 6px 3px 6px rgb(4, 13, 39);
+
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 400px;
+        background-color: white;
+    
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 30px;
+           
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .foto {
+        width: 100%;
+        
+        border-radius: 10px;
+        margin-top: -10px;
+    }
+
+    .subtitulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(9,32, 95);
+        margin-top: 20px;
+        text-shadow: 5px 2px 5px gray;
+    }
+    
+    .star {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+    
+    .corpo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .btPass {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 120px;
+
+        background-color: rgb(9,32, 95);
+        width: 30px;
+        height: 30px;
+        
+        color: white;
+        text-decoration: none;
+        
+        border-radius: 10px;
+    
+        display: inline;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .btPass:hover {
+        background-color:rgb(3, 95, 180);
+        text-shadow: 2px 2px 5px white;
+    }
